@@ -1,2 +1,2 @@
 variables:
-  CI_RENOVATE_IMAGE: "ghcr.io/renovatebot/renovate:41.171.4-full"
+  CI_RENOVATE_IMAGE: ghcr.io/renovatebot/renovate:41.171.4-full
