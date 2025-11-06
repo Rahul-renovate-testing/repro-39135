@@ -6,7 +6,7 @@
         "/^\\.gitlab-ci\\.yml$/"
       ],
       "matchStrings": [
-        "CI_RENOVATE_IMAGE:\\s*ghcr\\.io/renovatebot/renovate:(?<currentValue>[0-9.]+)-full"
+        "CI_RENOVATE_IMAGE:\\s*ghcr\\.io/renovatebot/renovate:(?<currentValue>.*)"
       ],
       "depNameTemplate": "ghcr.io/renovatebot/renovate",
       "datasourceTemplate": "docker"
